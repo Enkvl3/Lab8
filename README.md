@@ -1,13 +1,16 @@
-#School System (OOP + GUI)
+# School System (OOP + GUI)
 
 ## Features
 - Add Student
 - View Students
 
-##Technologies
+## Technologies
 - Java
 - Swing
 - OOP (Encapsulation, Inheritance, Composition)
 
 ## Author
 Enkhkhuslen
+
+## "Git PR туршилт"
+PR turshiw

@@ -1,0 +1,136 @@
+
+DELL@216-6 MINGW64 ~
+$ cd ~/desktop/
+
+DELL@216-6 MINGW64 ~/desktop
+$ mkdir soril1
+
+DELL@216-6 MINGW64 ~/desktop
+$ cd soril1
+
+DELL@216-6 MINGW64 ~/desktop/soril1
+$ ls
+
+DELL@216-6 MINGW64 ~/desktop/soril1
+$ git clone https://github.com/Enkvl3/Lab8.git
+Cloning into 'Lab8'...
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 31 (delta 1), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (31/31), 159.50 KiB | 635.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+DELL@216-6 MINGW64 ~/desktop/soril1
+$ ^C
+
+DELL@216-6 MINGW64 ~/desktop/soril1
+$ ls
+Lab8/
+
+DELL@216-6 MINGW64 ~/desktop/soril1
+$ cd lab8
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (main)
+$ ls
+README.md  SS/  lab7/
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (main)
+$ code .
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (main)
+$ git add .
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (main)
+$ git branch
+* main
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (main)
+$ git branch feature-test
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (main)
+$ git branch
+  feature-test
+* main
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (main)
+$ git checkout feature-test
+Switched to branch 'feature-test'
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ code .
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ git commit -m "feature-test"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DELL@216-6.(none)')
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ git config user.email "kingzonykingzony@gmail.com"
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ git congig user.name "Enkhkhuslen"
+git: 'congig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ git commit -m "feature-test"
+On branch feature-test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ git add .
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ git status
+On branch feature-test
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ git push origin feature-test
+info: please complete authentication in your browser...
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feature-test' on GitHub by visiting:
+remote:      https://github.com/Enkvl3/Lab8/pull/new/feature-test
+remote:
+To https://github.com/Enkvl3/Lab8.git
+ * [new branch]      feature-test -> feature-test
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ git push origin main
+Everything up-to-date
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ code .
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ git push origin feature-test
+Everything up-to-date
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$ code git bash.md
+
+DELL@216-6 MINGW64 ~/desktop/soril1/lab8 (feature-test)
+$
